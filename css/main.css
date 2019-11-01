@@ -1,11 +1,17 @@
 
+/*** --- Fonts --- ***/
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,200i,400,400i,600,600i&display=swap');
+
+/*** --- Reset --- ***/
 
 *, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/*** --- General --- ***/
 
 html {
     font-size: 15px;
@@ -15,6 +21,8 @@ body {
     font-size: inherit;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
+
+/*** --- Features Section --- ***/
 
 .features {
     width: 70%;
@@ -102,6 +110,8 @@ body {
     justify-self: left;
 }
 
+/*** --- Footer --- ***/
+
 footer{
     padding: 1em 1em;
 }
@@ -119,14 +129,16 @@ footer{
     color: red;
 }
 
+/*** --- Media Queries --- ***/
+
 @media screen and (max-width: 700px) {
 
     .features {
-        width: 90%;
+        width: 95%;
     }
 
     .features-header {
-        width: 70%;
+        width: 90%;
     }
 
     .features-header .title {
