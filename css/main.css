@@ -122,11 +122,11 @@ footer{
 @media screen and (max-width: 700px) {
 
     .features {
-        width: 100%;
+        width: 90%;
     }
 
     .features-header {
-        width: 85%;
+        width: 70%;
     }
 
     .features-header .title {
@@ -139,6 +139,21 @@ footer{
         grid-auto-rows: auto;
     }
 
+    .features-cards .card {
+        max-width: 300px;
+        padding: 1.5em 1.5em 1.5em 1.5em;
+    }
+
+    .features-cards .card .card-title {
+        font-size: 1.3rem;
+        margin-bottom: 0.2em;
+    }
+    
+    .features-cards .card .card-text {
+        font-size: .8rem;
+        margin: 0 2em 3em 0;
+    }
+    
     .features-cards .card-cyan {
         grid-column: 1;
         grid-row: 1;
